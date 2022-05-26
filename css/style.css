@@ -59,6 +59,7 @@ h2{
 
 .card{
     box-shadow: 5px 10px 18px #cecece;
+    background-color: rgb(15, 14, 23);
 }
 
 .card img{
@@ -68,7 +69,6 @@ h2{
 
 .card-data{
     padding: 15px 0px;
-    background-color: rgb(15, 14, 23);
     height: 100px;
 }
 
