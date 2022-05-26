@@ -57,4 +57,35 @@ h2{
 
 /* start main content */
 
+.card h3{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.card a {
+    color: rgb(110, 203, 205);
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.card small{
+    display: block;
+}
+
+.card h3, .card small{
+    margin-bottom: 0.4rem;
+    color: #fff;
+}
+
+.card img{
+    margin-right: 20px;
+}
+
+.card-data{
+    padding: 15px 0px;
+    background-color: rgb(15, 14, 23);
+}
+
+
 /* end main content */
