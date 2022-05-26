@@ -13,12 +13,8 @@ body{
 }
 
 .center-content{
-    max-width: 900px;
+    max-width: 1100px;
     margin: auto;
-}
-
-.box img{
-    max-width: 100px;
 }
 
 .clearfix::after{
@@ -56,36 +52,44 @@ h2{
 /* end header */
 
 /* start main content */
+.box{
+    width: calc(100% / 3);
+    padding: 15px;
+}
+
+.card{
+    box-shadow: 5px 10px 18px #cecece;
+}
+
+.card img{
+    margin-right: 20px;
+    max-width: 100px;
+}
+
+.card-data{
+    padding: 15px 0px;
+    background-color: rgb(15, 14, 23);
+    height: 100px;
+}
 
 .card h3{
     text-transform: uppercase;
     font-weight: 600;
 }
 
+.card small{
+    display: block;
+}
+
 .card a {
     color: rgb(110, 203, 205);
     text-decoration: none;
-    font-size: 12px;
+    font-size: 0.8rem;
     cursor: pointer;
-}
-
-.card small{
-    display: block;
 }
 
 .card h3, .card small{
     margin-bottom: 0.4rem;
     color: #fff;
 }
-
-.card img{
-    margin-right: 20px;
-}
-
-.card-data{
-    padding: 15px 0px;
-    background-color: rgb(15, 14, 23);
-}
-
-
 /* end main content */
